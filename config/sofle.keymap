@@ -13,12 +13,13 @@
 #define LOWER 1
 #define RAISE 2
 
+&mt {
+    flavor = "tap-preferred";
+};
+
+
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
-
-    &mt {
-        flavor = "tap-preferred";
-    };
 
     keymap {
         compatible = "zmk,keymap";
